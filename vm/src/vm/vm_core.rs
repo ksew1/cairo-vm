@@ -84,7 +84,7 @@ pub struct VirtualMachine {
     pub(crate) run_context: RunContext,
     pub builtin_runners: Vec<BuiltinRunner>,
     pub segments: MemorySegmentManager,
-    pub(crate) trace: Option<Vec<TraceEntry>>,
+    pub trace: Option<Vec<TraceEntry>>,
     pub(crate) current_step: usize,
     pub(crate) rc_limits: Option<(isize, isize)>,
     skip_instruction_execution: bool,
