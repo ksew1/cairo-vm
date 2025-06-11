@@ -2,6 +2,8 @@
 
 #### Upcoming Changes
 
+* dev: make `VirtualMachine::get_traceback_entries` pub
+
 * chore: remove unused dependencies [#2111](https://github.com/lambdaclass/cairo-vm/pull/2111)
 
 * chore: update Rust required version to 1.87.0  [#2100](https://github.com/lambdaclass/cairo-vm/pull/2100)
